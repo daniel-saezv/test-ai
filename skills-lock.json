@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "skills": {
+    "blast-radius": {
+      "source": "cursor/plugins",
+      "commit": "792440e8a560a4a3f63748cdee70491ecd412982",
+      "sourceType": "github",
+      "skillPath": "harness/pstack/claude-code/skills/blast-radius/SKILL.md",
+      "computedHash": "f9ec7353939c4449f2edb1cd195049f477b9ba6c0a869de75c7b440e27295f01"
+    },
+    "correct": {
+      "source": "cursor/plugins",
+      "commit": "792440e8a560a4a3f63748cdee70491ecd412982",
+      "sourceType": "github",
+      "skillPath": "harness/pstack/claude-code/skills/correct/SKILL.md",
+      "computedHash": "63f55b279f1298d3cabe91999063920cdc2a2f16a671cb8fbd87ddecc7fde216"
+    },
+    "principle-prove-it-works": {
+      "source": "cursor/plugins",
+      "commit": "792440e8a560a4a3f63748cdee70491ecd412982",
+      "sourceType": "github",
+      "skillPath": "harness/pstack/claude-code/skills/principle-prove-it-works/SKILL.md",
+      "computedHash": "e1903c637f60b63a8ded3ca9ec60d132190f0473085581be7fcf1fb8cb18bb49"
+    },
+    "tdd": {
+      "source": "cursor/plugins",
+      "commit": "792440e8a560a4a3f63748cdee70491ecd412982",
+      "sourceType": "github",
+      "skillPath": "harness/pstack/claude-code/skills/tdd/SKILL.md",
+      "computedHash": "c88ebf09cd7df89476eca9afb62748d73ca00346cfb044852c0bbb4066e78e27"
+    },
+    "unslop": {
+      "source": "cursor/plugins",
+      "commit": "792440e8a560a4a3f63748cdee70491ecd412982",
+      "sourceType": "github",
+      "skillPath": "harness/pstack/claude-code/skills/unslop/SKILL.md",
+      "computedHash": "4bbcb6719a8f0f6f7fb46752e1c360791d7758a837708e300a06fc7d6907938c"
+    }
+  }
+}
