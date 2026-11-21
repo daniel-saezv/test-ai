@@ -8,6 +8,7 @@ Pide al agente que ejecute la skill **setup-proyecto**. Esa skill explora el rep
 
 ## Qué incluye
 
+- `scripts/setup`: preparación idempotente del entorno. Los envoltorios de cada proveedor de agentes en la nube solo invocan este script.
 - `AGENTS.md`: reglas transversales, mantenimiento de skills y, tras el setup, datos del proyecto (stack, estructura, comandos comprobados).
 - `.agents/skills/`: skills del agente; su mantenimiento está en `AGENTS.md` (sección «Mantenimiento de skills»).
 - `skills-lock.json`: versiones fijadas de las skills instaladas desde pstack.

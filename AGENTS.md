@@ -18,6 +18,7 @@
 14. Sin ficheros `.md` largos de planes o decisiones; el porqué va en la PR o en el commit.
 15. Prosa breve y sin relleno en PRs, commits y documentación.
 16. No cambies alcance, diseño ni prioridades por tu cuenta; si algo te bloquea, dilo con exactitud.
+17. La preparación del entorno vive en `scripts/setup`. Es idempotente. Los archivos de cada proveedor de agentes en la nube solo lo invocan. Si cambias dependencias, toolchain o pasos de arranque, actualiza el script y comprueba que esos envoltorios siguen funcionando. Si el proyecto usa un proveedor sin envoltorio, créalo.
 
 ## Mantenimiento de skills
 
@@ -31,7 +32,7 @@ Hay dos clases:
 
    Esas skills pueden nombrar otras de pstack que no vienen en la plantilla (por ejemplo, `blast-radius` menciona `why` y `arena`). Si las necesitas, instálalas con `npx skills add cursor/plugins --skill <nombre>` o con `/add-plugin pstack` en Cursor.
 
-2. **Propias de la plantilla** (español): `setup-proyecto`, `pr-lista`, `technical-writing` y `how`. Viven solo en este repositorio; para que Claude Code las vea, mantén los enlaces en `.claude/skills/` apuntando a `.agents/skills/<nombre>`.
+2. **Propias de la plantilla** (español): `setup-proyecto`, `entorno-agentes`, `pr-lista`, `technical-writing` y `how`. Viven solo en este repositorio; para que Claude Code las vea, mantén los enlaces en `.claude/skills/` apuntando a `.agents/skills/<nombre>`.
 
 Para actualizar las skills bloqueadas en `skills-lock.json`:
 

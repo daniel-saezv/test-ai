@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+# --- stack (setup-proyecto) ---
+install_stack() {
+  echo "scripts/setup: no hay stack. Nada que instalar."
+}
+# --- fin stack ---
+
+install_stack

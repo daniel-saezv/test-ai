@@ -36,6 +36,6 @@ jobs:
       - name: Validate skill metadata (propias)
         run: |
           set -e
-          for skill in .agents/skills/how .agents/skills/pr-lista .agents/skills/setup-proyecto .agents/skills/technical-writing; do
+          for skill in .agents/skills/entorno-agentes .agents/skills/how .agents/skills/pr-lista .agents/skills/setup-proyecto .agents/skills/technical-writing; do
             npx skills-ref@0.1.5 validate "$skill"
           done
