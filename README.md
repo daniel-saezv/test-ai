@@ -27,3 +27,4 @@ git config --global core.symlinks true
 ```
 
 Vuelve a clonar el repositorio después de cambiar la opción.
+QA T1 88c9cfe 2026-11-23
