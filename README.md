@@ -27,3 +27,4 @@ git config --global core.symlinks true
 ```
 
 Vuelve a clonar el repositorio después de cambiar la opción.
+QA live test 2026-11-23 (PR18)
